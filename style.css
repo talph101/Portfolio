@@ -1,19 +1,53 @@
 body {
     background-color: rgb(255, 116, 204);
+    margin: 2%;
 }
-
-/* #navBar {
-    background-color: black;    
-    
-} */
 
 .nav-links {
     list-style: none;
     display: flex;
     justify-content: space-around;    
+    color:blanchedalmond;
+}
+
+.nav-item {
+    font-style: oblique;
+    font-size: 50px;
 }
 
 .middle {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 15px 32px;
+}
+
+#Pic {
+    display: flex;
+    justify-content: center;
+}
+
+.copy-dash {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+article {
+    display: flex;
+    border-style:solid;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    padding: 1%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+header {
+    display: flex;
+    justify-content: center;
 }
