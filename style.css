@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(255, 116, 204);
+}
+
+/* #navBar {
+    background-color: black;    
+    
+} */
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.middle {
+    display: flex;
+    /* justify-content: center; */
+}
